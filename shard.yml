@@ -1,0 +1,13 @@
+name: monty_hall_problem
+version: 0.1.0
+
+authors:
+  - your-name-here <your-email-here>
+
+targets:
+  monty_hall_problem:
+    main: src/monty_hall_problem.cr
+
+crystal: 0.32.1
+
+license: MIT
