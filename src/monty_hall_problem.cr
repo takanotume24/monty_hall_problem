@@ -1,14 +1,12 @@
 def openable_doors(correct_door, first_selected_door, doors) : Hash(Int32, Bool)
   doors.delete first_selected_door
-
   hazure_doors = doors.select { |key, value| value == false }
   delete_door = hazure_doors.keys[Random.rand hazure_doors.keys.size]
   doors.delete delete_door
-
   return doors
 end
 
-def choise_second_door(doors) : Int
+def choise_second_door(doors : Hash(Int32, Bool)) : Int
   return doors.keys[Random.rand doors.keys.size]
 end
 
@@ -17,6 +15,7 @@ loop : Int64 = ARGV[1].to_i64
 
 atari = 0
 atari_changed = 0
+
 doors = Hash(Int32, Bool).new
 
 loop.times do |i|
