@@ -16,7 +16,7 @@ door_num = ARGV[0].to_i
 m : Int64 = ARGV[1].to_i64
 loop : Int64 = ARGV[2].to_i64
 
-file = File.open("data_m_#{m}_loop_#{loop}.csv", mode = "w")
+file = File.open("result/data_m_#{m}_loop_#{loop}.csv", mode = "w")
 
 atari = 0
 atari_changed = 0
