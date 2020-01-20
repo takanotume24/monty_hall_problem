@@ -1,18 +1,15 @@
 # monty_hall_problem
-
-TODO: Write a description here
+モンティ・ホール問題のシュミレータです｡
 
 ## Installation
-
-TODO: Write installation instructions here
-
+```
+git clone git@github.com:takanotume24/monty_hall_problem.git 
+```
 ## Usage
+```
+./monty_hall_problem [ドア数] [サンプル数] [試行数]
+```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
@@ -24,4 +21,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [takanotume24](https://github.com/takanotume24) - creator and maintainer
